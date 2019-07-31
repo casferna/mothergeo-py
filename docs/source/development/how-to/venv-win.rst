@@ -76,6 +76,12 @@ Now that we have a virtual environment, we need to activate it.
 
 After you activate the environment, your command prompt will be modified to reflect the change.
 
+**while running the above command , you might have the following error:
+PS C:\Users\casferna\cimservicesautomation> & c:/Users/casferna/cimservicesautomation/.venv/Scripts/activate.ps1
+You must 'source' this script: PS> . &
+To troubleshoot this: 
+Change directory to "Scripts" using cd Scripts, once you're in the "Scripts" path use . activate to activate virtualenv. Don't forget the space after the dot.
+
 Add Libraries and Create a *requirements.txt* File
 ====================================================
 
